@@ -19,11 +19,12 @@ export const ResultContainer = styled.div`
   align-items: center;
 `
 export const Option = styled.h1`
-  font-size: 16px;
-  font-family: 'Roboto';
-  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
   color: #ffffff;
   margin-left: 20px;
+  margin-bottom: 5px;
 `
 
 export const OptionsContainer = styled.div`
@@ -39,20 +40,21 @@ export const ScoreContainer = styled.div`
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 10px;
-  height: 80px;
+  height: 100px;
+  width: 120px;
   margin-right: 20px;
 `
 export const ScorePhrase = styled.p`
   align-self: auto;
-  font-size: 16px;
-  font-family: 'Roboto';
+  font-size: 20px;
+  font-family: 'Bree Serif';
   font-weight: 700;
   color: #223a5f;
   margin: 0px;
   padding: 4px;
 `
 export const ScoreNumber = styled.p`
-  font-size: 28px;
+  font-size: 40px;
   font-family: 'Roboto';
   font-weight: 700;
   color: #223a5f;
@@ -77,9 +79,8 @@ export const GameOptionsList = styled.ul`
   flex-wrap: wrap;
 `
 export const TriggerButton = styled.button`
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  font-family: 'Roboto';
   color: #223a5f;
   padding: 8px 15px 8px 15px;
   margin: 8px;
@@ -88,6 +89,7 @@ export const TriggerButton = styled.button`
   border-radius: 4px;
   outline: none;
   cursor: pointer;
+  font-family: 'Bree Serif';
 `
 export const PopupContainer = styled.div`
   display: flex;
@@ -101,7 +103,7 @@ export const CloseButton = styled.button`
   background-color: transparent;
 `
 export const PopUpImage = styled.img`
-  width: 90%;
+  width: 100%;
   align-self: center;
 `
 export const PopUpBody = styled.div`
