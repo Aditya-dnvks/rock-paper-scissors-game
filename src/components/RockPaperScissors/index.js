@@ -261,15 +261,9 @@ class RockPaperScissors extends Component {
       <AppContainer>
         <ResultContainer>
           <OptionsContainer>
-            <Option>
-              ROCK
-              <br />
-              <br />
-              PAPER
-              <br />
-              <br />
-              SCISSORS
-            </Option>
+            <Option>ROCK</Option>
+            <Option>PAPER </Option>
+            <Option>SCISSOR</Option>
           </OptionsContainer>
           <ScoreContainer>
             <ScorePhrase>Score</ScorePhrase>
