@@ -9,10 +9,10 @@ export const AppContainer = styled.div`
 `
 
 export const ResultContainer = styled.div`
-  padding: 20px;
+  padding: 15px;
   border: 2px solid #ffffff;
   border-radius: 10px;
-  width: 65%;
+  width: 55%;
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
@@ -23,6 +23,7 @@ export const Option = styled.h1`
   font-family: 'Roboto';
   font-weight: 700;
   color: #ffffff;
+  margin-left: 20px;
 `
 
 export const OptionsContainer = styled.div`
@@ -38,18 +39,25 @@ export const ScoreContainer = styled.div`
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 10px;
+  height: 80px;
+  margin-right: 20px;
 `
 export const ScorePhrase = styled.p`
+  align-self: auto;
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 700;
   color: #223a5f;
+  margin: 0px;
+  padding: 4px;
 `
 export const ScoreNumber = styled.p`
   font-size: 28px;
   font-family: 'Roboto';
   font-weight: 700;
   color: #223a5f;
+  margin: 0px;
+  padding: 4px;
 `
 export const GameViewContainer = styled.div`
   width: 65%;
